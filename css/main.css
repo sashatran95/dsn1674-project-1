@@ -15,6 +15,7 @@ body {
 }/*Hovers for Wiki*/
 a {
 	color: beige;
+	text-decoration: none;
 }
 
 a:hover {
@@ -72,8 +73,8 @@ nav li{
 	font: Georgia;
 }
 
-nav li boxes:hover{
-	color: #CC0066;
+li:hover{
+	background-color: #CC0066;
 
 }/*Box footer*/
 footer {
@@ -88,19 +89,19 @@ footer {
 footer p {
 	color: ;
 	text-decoration: none;
-}
-/*Fonts and indentations*/
+
+}/*Fonts and indentations*/
 h1, h2, h3 {
 	font-family: 'Sigmar One', cursive;
 	color: #AD335C;
 }
 
 h1 {
+	text-align: center;
 	/*boxes*/
 	font-size: 3.5rem;
 	background-color:#FFF100;
 	margin: 0;
-	text-align: center;
 	padding: 0;
 }
 h2 {
