@@ -44,10 +44,11 @@ nav a: { /*texts in nav a*/
 	width: 6em;
 }
 nav{
-	background-color: #FFF100;
+	background-color: #FFFFCC;
 	text-align: center;
-	padding: 1rem 1rem;
+	padding: 1rem 1rem 1rem 1rem;
 	display: block;
+
 }
 
 nav ul{
@@ -62,7 +63,7 @@ nav li{
 }
 
 nav a:hover{
-	color: yellow;
+	color: white;
 
 }/*Box footer*/
 footer {
@@ -101,7 +102,7 @@ h3 {
 	font-size: 1.3rem;
 
 }
-p{
+p {
 	line-height: 1.6rem;
 }
 dt {
@@ -119,19 +120,16 @@ dd {
 }
 dl {
 	line-height: 1.6rem;
-}
 
 }/*Image*/
 figure {
 	text-align: center;
 	border: 2px solid #ACAC83;
 	border-style: solid;
-	padding: 1em;
-	margin: 1em;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+	margin: 1rem;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
     border-radius:7px;
+    background: #FFFFCC;
 }
 
 img{
