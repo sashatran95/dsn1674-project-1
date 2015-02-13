@@ -1,14 +1,14 @@
 /*Pallete
 Yellow = #FFF100
-Berry Red = #B82E8A
-Pinkish Berry Red = #CC0099
+Berry Red = #AD335C
+Light Berry Red = #CC0066
 Green Beige = #ACAC83
 Bright Beige = #FFFFCC
 */
 html {
 	font-family: Georgia;
 
-/*Hoverv*/
+/*Hover*/
 }
 a {
 	color: beige;
@@ -20,7 +20,7 @@ a:hover {
 }/*Block Quote*/
 blockquote{
 	font-family: Georgia;
-	font-size: 12pt;
+	font-size: 1.4rem;
 	font-style: italic;
 	color: #ACAC83
 }
@@ -28,6 +28,10 @@ blockquote{
 blockquote footer { /*E.B Whtie*/
 	background-color: white;
 	text-align: center;
+	font-family: Georgia;
+	font-size: 1.4rem;
+	font-style: italic;
+	color: #ACAC83
 }
 /*Navigations*/
 nav a: { /*texts in nav a*/
@@ -62,7 +66,8 @@ nav a:hover{
 
 }/*Box footer*/
 footer {
-	font-size: 1rem;
+	font-size: 0.9rem;
+	text-align: center;
 	/*Boxes*/
 	background-color: #FFF100;
 	padding: 1em 2em 0.5em 3em;
@@ -76,7 +81,7 @@ footer p {
 /*Fonts and indentations*/
 h1, h2, h3 {
 	font-family: 'Sigmar One', cursive;
-	color: #B82E8A;
+	color: #AD335C;
 }
 
 h1 {
@@ -96,7 +101,9 @@ h3 {
 	font-size: 1.3rem;
 
 }
-
+p{
+	line-height: 1.6rem;
+}
 dt {
 	list-style-type: lower-roman;
 	font-family: Georgia;
@@ -108,6 +115,11 @@ dt {
 dd {
 	padding: 0rem;
 	margin: 0;
+
+}
+dl {
+	line-height: 1.6rem;
+}
 
 }/*Image*/
 figure {
@@ -135,8 +147,11 @@ figurecaption {
 
 }/*Classes*/
 .startquote {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	font-family: Georgia;
 	color: #ACAC83;
 	text-align: center;
+}
+.wiki {
+	color: #AD335C;
 }
