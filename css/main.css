@@ -44,10 +44,10 @@ nav a: { /*texts in nav a*/
 	width: 6em;
 }
 nav{
-	background-color: #FFFFCC;
 	text-align: center;
 	padding: 1rem 1rem 1rem 1rem;
 	display: block;
+	background-color: #FFF100;
 
 }
 
@@ -59,6 +59,7 @@ nav ul{
 
 nav li{
 	display: inline;
+	background-color: #FFFFCC;
 
 }
 
