@@ -4,5 +4,43 @@
 
 
 /*Hover*/
+}
+a {
+	color: yellow;
+}
 
+a:hover {
+	color: pink;
+
+}
+/*Navigations*/
+nav a: { 
+
+}
+
+nav a:hover{
+	color: yellow
+}
 /*Box footer*/
+
+/*Fonts and indentations*/
+h1, h2, h3 {
+	font-family: 'Sigmar One', cursive;
+}
+
+p {
+	font-family: Georgia;
+}
+
+dt {
+	list-style-type: lower-roman;
+	font-family: Georgia;
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin: 0;
+	/*color: #1A4E81;*/
+}
+dd {
+	padding: 0rem;
+	margin: 0;
+}
