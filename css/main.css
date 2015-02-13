@@ -12,8 +12,7 @@ body {
 	padding: 0rem;
 	margin: 0rem;
 
-/*Hover*/
-}
+}/*Hovers for Wiki*/
 a {
 	color: beige;
 }
@@ -60,20 +59,20 @@ nav ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 
 nav li{
 	display: inline;
 	background-color: #999100;
 	color: white;
-	border-radius: 8px;
+	border-radius: 3px;
 	padding: 0.5rem 0.75rem;
 	width: 6em;
 	font: Georgia;
-	text-decoration: none;
 }
 
-nav li:hover{
+nav li boxes:hover{
 	color: #CC0066;
 
 }/*Box footer*/
@@ -107,7 +106,7 @@ h1 {
 h2 {
 	font-size: 2rem;
 	border-top: solid 5px #FFF100;
-
+	margin-top: 1rem;
 }
 
 h3 {
