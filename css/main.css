@@ -71,6 +71,7 @@ nav li{
 	padding: 0.5rem 0.75rem;
 	width: 6em;
 	font: Georgia;
+	font-size: 1.1rem;
 }
 
 li:hover{
@@ -107,31 +108,32 @@ h1 {
 h2 {
 	font-size: 2rem;
 	border-top: solid 5px #FFF100;
-	margin-top: 1rem;
+	margin: 0.5rem;
 }
 
 h3 {
 	font-size: 1.3rem;
+	margin: 0.5rem;
 
 }
 p {
 	line-height: 1.6rem;
-	/*margin: 0;*/
+	margin: 0.5rem;
 }
 dt {
 	list-style-type: lower-roman;
 	font-family: Georgia;
 	font-size: 0.9rem;
 	font-weight: bold;
-	margin: 0;
+	margin: 0.5rem;
 }
 dd {
 	padding: 0rem;
-	margin: 0;
+	margin: 0.5rem;
 
 }
 dl {
-	line-height: 1.6rem;
+	line-height: 1rem;
 
 }/*Image*/
 figure {
