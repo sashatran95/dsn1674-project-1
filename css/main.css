@@ -1,25 +1,46 @@
-/*Hover*/
+/*Pallete
+Yellow = #FFF100
+Berry Red = #B82E8A
+Pinkish Berry Red = #CC0099
+Green Beige = #ACAC83
+Bright Beige = #FFFFCC
+*/
+html {
+	font-family: Georgia;
+
+/*Hoverv*/
 }
 a {
-	color: yellow;
+	color: beige;
 }
 
 a:hover {
-	color: pink;
+	color: white;
 
+}/*Block Quote*/
+blockquote{
+	font-family: Georgia;
+	font-size: 12pt;
+	font-style: italic;
+	color: #ACAC83
+}
+
+blockquote footer { /*E.B Whtie*/
+	background-color: white;
+	text-align: center;
 }
 /*Navigations*/
 nav a: { /*texts in nav a*/
 	display: inline-block;
 	padding: 0.5rem 0.75rem ;
-	background-color: yellow;/**/
-	color: pink;/**/
+	background-color: #FFF100;
+	color: #ACAC83;
 	text-decoration: none;
 	border-radius: 6px;
 	width: 6em;
 }
 nav{
-	background-color: yellow;/**/
+	background-color: #FFF100;
 	text-align: center;
 	padding: 1rem 1rem;
 	display: block;
@@ -37,14 +58,14 @@ nav li{
 }
 
 nav a:hover{
-	color: yellow
+	color: yellow;
 
 }/*Box footer*/
 footer {
 	font-size: 1rem;
 	/*Boxes*/
-	background-color: yellow;
-	padding: 1em 2em 0.5em 3em; /* rem for indenting and em for padding sizes*/
+	background-color: #FFF100;
+	padding: 1em 2em 0.5em 3em;
 	margin: 0;
 	padding: 0.5rem;
 }
@@ -55,21 +76,25 @@ footer p {
 /*Fonts and indentations*/
 h1, h2, h3 {
 	font-family: 'Sigmar One', cursive;
-	color: pink;/**/
+	color: #B82E8A;
 }
 
 h1 {
 	/*boxes*/
-	font-size: 3rem;
-	background-color: yellow;
-	padding: 1em 2em 0.5em 3em; /* rem for indenting and em for padding sizes*/
+	font-size: 3.5rem;
+	background-color:#FFF100;
+	padding: 0em 2em 0em 3em;
 	margin: 0;
 	text-align: center;
+}
+h2 {
+	font-size: 2rem;
 
 }
 
-p {
-	font-family: Georgia;
+h3 {
+	font-size: 1.3rem;
+
 }
 
 dt {
@@ -87,7 +112,7 @@ dd {
 }/*Image*/
 figure {
 	text-align: center;
-	border: 2px solid #B2CCFF;
+	border: 2px solid #ACAC83;
 	border-style: solid;
 	padding: 1em;
 	margin: 1em;
@@ -95,9 +120,6 @@ figure {
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius:7px;
-}
-blockquote footer {
-	background-color: #9EAECC;
 }
 
 img{
@@ -107,9 +129,14 @@ img{
 }
 figurecaption {
 	font-style: italic;
-	font-family: arial;
+	font-family: georgia;
 	font-size: 0.8rem;
-	color: #2E8AE6;
 	text-align: center;
 
+}/*Classes*/
+.startquote {
+	font-size: 3rem;
+	font-family: Georgia;
+	color: #ACAC83;
+	text-align: center;
 }
