@@ -1,8 +1,3 @@
-/*Boxes*/
-
-/*Box seperator*/
-
-
 /*Hover*/
 }
 a {
@@ -14,18 +9,63 @@ a:hover {
 
 }
 /*Navigations*/
-nav a: { 
+nav a: { /*texts in nav a*/
+	display: inline-block;
+	padding: 0.5rem 0.75rem ;
+	background-color: yellow;/**/
+	color: pink;/**/
+	text-decoration: none;
+	border-radius: 6px;
+	width: 6em;
+}
+nav{
+	background-color: yellow;/**/
+	text-align: center;
+	padding: 1rem 1rem;
+	display: block;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
 
 }
 
 nav a:hover{
 	color: yellow
-}
-/*Box footer*/
 
+}/*Box footer*/
+footer {
+	font-size: 1rem;
+	/*Boxes*/
+	background-color: yellow;
+	padding: 1em 2em 0.5em 3em; /* rem for indenting and em for padding sizes*/
+	margin: 0;
+	padding: 0.5rem;
+}
+footer p {
+	color: ;
+	text-decoration: none;
+}
 /*Fonts and indentations*/
 h1, h2, h3 {
 	font-family: 'Sigmar One', cursive;
+	color: pink;/**/
+}
+
+h1 {
+	/*boxes*/
+	font-size: 3rem;
+	background-color: yellow;
+	padding: 1em 2em 0.5em 3em; /* rem for indenting and em for padding sizes*/
+	margin: 0;
+	text-align: center;
+
 }
 
 p {
@@ -43,4 +83,33 @@ dt {
 dd {
 	padding: 0rem;
 	margin: 0;
+
+}/*Image*/
+figure {
+	text-align: center;
+	border: 2px solid #B2CCFF;
+	border-style: solid;
+	padding: 1em;
+	margin: 1em;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius:7px;
+}
+blockquote footer {
+	background-color: #9EAECC;
+}
+
+img{
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+figurecaption {
+	font-style: italic;
+	font-family: arial;
+	font-size: 0.8rem;
+	color: #2E8AE6;
+	text-align: center;
+
 }
